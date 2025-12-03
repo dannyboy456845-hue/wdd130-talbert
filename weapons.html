@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Roll Aid - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eater&family=Funnel+Display:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/derrington-logo.png" alt="RPG Roll Aid Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="weapons.html" class="active">Weapons</a></li>
+          <li><a href="game-rolls.html">Game Rolls</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>WEAPONS</h1>
+
+      <section class="character-forms">
+        <div class="character-card">
+          <h2>Weapon 1</h2>
+          <form>
+            <div class="form-group">
+              <label for="char1-name">Weapon Name</label>
+              <input type="text" id="char1-name" value="Poison Dagger" />
+            </div>
+            <div class="form-group">
+              <label for="char1-class">Dice to roll</label>
+              <input type="text" id="char1-class" value="1D4" />
+            </div>
+            <div class="form-group">
+              <label for="char1-level">Weapon Focus Modifiers</label>
+              <input type="text" id="char1-level" value="Dexterity" />
+            </div>
+            <div class="form-group">
+              <label for="char1-str">Damage Type</label>
+              <input type="text" id="char1-str" value="Piercing" />
+            </div>
+            <div class="form-group">
+              <label for="char1-dex">Extra Info</label>
+              <input type="text" id="char1-dex" value="Fear Me" />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="character-card">
+          <h2>Weapon 2</h2>
+          <form>
+            <div class="form-group">
+              <label for="char1-name">Weapon Name</label>
+              <input type="text" id="char1-name" value="Frost Lightning" />
+            </div>
+            <div class="form-group">
+              <label for="char1-class">Dice to roll</label>
+              <input type="text" id="char1-class" value="1D4" />
+            </div>
+            <div class="form-group">
+              <label for="char1-level">Weapon Focus Modifiers</label>
+              <input type="text" id="char1-level" value="Strike" />
+            </div>
+            <div class="form-group">
+              <label for="char1-str">Damage Type</label>
+              <input type="text" id="char1-str" value="Lightnging" />
+            </div>
+            <div class="form-group">
+              <label for="char1-dex">Extra Info</label>
+              <input
+                type="text"
+                id="char1-dex"
+                value="This weapon is way cooler"
+              />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 RPG Roll Aid. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
